@@ -1,12 +1,13 @@
 {
     "header":  {
-                   "Version":  "1.0",
-                   "Date":  "2020-12-31"
+                   "Version":  "1.0.1",
+                   "Date":  "2021-01-06"
                },
     "data":  [
                  {
                      "Date":  "2019-09-13",
                      "Hash":  "0459e62c5444896d5be404c559c834ba455fa5cae1689c70fc8c61bc15468681",
+                     "Confidence":  "100",
                      "PDB":  "C:\\builds\\ACC\\GM\\source\\dev\\target\\win32\\Release\\HEX\\Adobe CEF Helper.pdb",
                      "Software":  "Adobe CEF Helper",
                      "Filename":  "Adobe CEF Helper.exe",
@@ -19,6 +20,7 @@
                  {
                      "Date":  "2020-07-12",
                      "Hash":  "c21bfc263890f02763f56b4e9f5cf9113656cf09d7864b53ec2fd2024bdadd60",
+                     "Confidence":  "100",
                      "PDB":  "g:\\Acro_root_ns\\BuildResults\\bin\\Release\\AcroRd32Exe.pdb",
                      "Software":  "Adobe Reader 9.0",
                      "Filename":  "AcroRd32.exe",
@@ -31,6 +33,7 @@
                  {
                      "Date":  "2020-07-12",
                      "Hash":  "6c959cfb001fbb900958441dfd8b262fb33e052342948bab338775d3e83ef7f7",
+                     "Confidence":  "100",
                      "PDB":  "t:\\word\\x86\\ship\\0\\winword.pdb",
                      "Software":  "Microsoft Office Word 2007",
                      "Filename":  "WinWord.exe",
@@ -44,6 +47,7 @@
                      "Date":  "2015-08-06",
                      "Hash":  "3124fcb79da0bdf9d0d1995e37b06f7929d83c1c4b60e38c104743be71170efe",
                      "PDB":  "e:\\buildsystem\\node\\oemmods210_6334888532928.build\\build\\win32\\release\\mcoemcpy.pdb",
+                     "Confidence":  "80",
                      "Software":  "McAfee OEM Info Copy Files",
                      "Filename":  "mcoemcpy.exe",
                      "Malware":  "PlugX",
@@ -56,6 +60,7 @@
                  {
                      "Date":  "2019-11-18",
                      "Hash":  "3817b6196af2cc9d27a07306d19547ec4c9e141675876b8544a57ec49213eff5",
+                     "Confidence":  "100",
                      "PDB":  "C:\\DistributedAutoLink\\Temp\\CompileOutputDir\\ravmond.pdb",
                      "Software":  "Rising AntiVirus 2011",
                      "Filename":  "ravmond.exe",
@@ -69,6 +74,7 @@
                  {
                      "Date":  "Under 2014",
                      "Hash":  "ae16e10e621d6610a3f7f2c7122f9d1263700ba02d1b90e42798decb2fe84096",
+                     "Confidence":  "70",
                      "PDB":  "e:\\buildsystem\\node\\vsapi_li13110_6337736841276.build\\build\\win32\\release\\MCVSMAP.pdb",
                      "Software":  "McAfee VirusScan API",
                      "Filename":  "McVsMap.EXE",
@@ -81,6 +87,7 @@
                  {
                      "Date":  "Under 2014",
                      "Hash":  "523d28df917f9d265cd2c0d38df26277bc56a535145100ed82e6f5fdeaae7256",
+                     "Confidence":  "70",
                      "PDB":  "-",
                      "Software":  "NVIDIA Smart Maximise Helper Host",
                      "Filename":  "NvSmartMaxapp.dll",
@@ -93,6 +100,7 @@
                  {
                      "Date":  "Under 2014",
                      "Hash":  "f9ebf6aeb3f0fb0c29bd8f3d652476cd1fe8bd9a0c11cb15c43de33bbce0bf68",
+                     "Confidence":  "70",
                      "PDB":  "c:\\bld_area\\SNAC_11.0-MR4\\Symantec_Network_Access_Control\\Agent\\Windows\\src\\bin.ira\\dot1xtray.pdb",
                      "Software":  "Symantec Network Access Control v 11.0.4010.7",
                      "Filename":  "dot1xtra.exe",
@@ -105,6 +113,7 @@
                  {
                      "Date":  "2019-08-08",
                      "Hash":  "fa86b5bc5343ca92c235304b8dcbcf4188c6be7d4621c625564bebd5326ed850",
+                     "Confidence":  "100",
                      "PDB":  "rekeywiz.pdb",
                      "Software":  "EFS REKEY wizard",
                      "Filename":  "rekeywiz.exe",
@@ -118,6 +127,7 @@
                  {
                      "Date":  "2019-04-01",
                      "Hash":  "76d2e897ca235beab44ee7eaab9ede7bc7868bbaeb7d6cb10b4323c07eb216af",
+                     "Confidence":  "100",
                      "PDB":  "-",
                      "Software":  "Symantec pcAnywhere thinprobe application",
                      "Filename":  "thinprobe.exe",
@@ -130,6 +140,7 @@
                  {
                      "Date":  "2019-04-01",
                      "Hash":  "2dde8881cd9b43633d69dfa60f23713d7375913845ac3fe9b4d8a618660c4528",
+                     "Confidence":  "100",
                      "PDB":  "-",
                      "Software":  "Python 3.3",
                      "Filename":  "PYTHON33.dll",
@@ -142,6 +153,7 @@
                  {
                      "Date":  "2019-04-01",
                      "Hash":  "bbb9cd70fdc581812822679e6a875dcf5b7d32fd529a1d564948a5a3f6f9e3ab",
+                     "Confidence":  "100",
                      "PDB":  "-",
                      "Software":  "Curl 7.29.0",
                      "Filename":  "curl.exe",
@@ -154,6 +166,7 @@
                  {
                      "Date":  "2019-04-01",
                      "Hash":  "738abaa80e8b6ed21e16302cb91f6566f9322aebf7a22464f11ee9f4501da711",
+                     "Confidence":  "100",
                      "PDB":  "C:\\Users\\jskinner\\sublime_text\\build\\x32\\dist\\plugin_host.pdb",
                      "Software":  "Sublime Text plugin host",
                      "Filename":  "plugin_host.exe",
@@ -166,6 +179,7 @@
                  {
                      "Date":  "2019-04-01",
                      "Hash":  "abc16344cdfc78f532870f4dcfbb75794c9a7074e796477382564d7ba2122c7d",
+                     "Confidence":  "100",
                      "PDB":  "-",
                      "Software":  "Curl 7.64.1",
                      "Filename":  "curl.exe",
@@ -178,6 +192,7 @@
                  {
                      "Date":  "2019-04-01",
                      "Hash":  "2bb22c7b97e4c4d07e17a259cbc48d72f7e3935aa873e3dd78d01c5bbf426088",
+                     "Confidence":  "100",
                      "PDB":  "CreateMedia.pdb",
                      "Software":  "System Center 2012 Configuration Manager 5.00.7804.1000",
                      "Filename":  "CreateMedia.exe",
@@ -190,6 +205,7 @@
                  {
                      "Date":  "2018-07-16",
                      "Hash":  "13497aab3521abbaa654b51f375114e419b1bb774caa8c67cf52775095b17423",
+                     "Confidence":  "100",
                      "PDB":  "-",
                      "Software":  "Windows Security Configuration Editor Command Tool 6.3.9600.16384",
                      "Filename":  "cmdl32.exe",
@@ -202,6 +218,7 @@
                  {
                      "Date":  "2016-01-22",
                      "Hash":  "075f9dfb6ab3379f69165c03991abf1a969ca0c21e04564543564dc536ea95dd",
+                     "Confidence":  "80",
                      "PDB":  "e:\\buildsystem\\node\\seccenter_li9110_6337483896637.build\\build\\win32\\release\\McSync.pdb", 
                      "Software":  "McAfee SecurityCenter 9.11.100.0 ",
                      "Filename":  "mcsync.exe",
@@ -214,6 +231,7 @@
                  {
                      "Date":  "2020-07-29",
                      "Hash":  "5faa1516327fc1f5694da81fd20b6fd370575f95c0b5e570b3df53948cd076e9",
+                     "Confidence":  "70",
                      "PDB":  "iscsicpl.pdb", 
                      "Software":  "Microsoft iSCSI Initiator Configuration Tool 6.1.7600.16385",
                      "Filename":  "iscsicpl.exe",
@@ -226,6 +244,7 @@
                  {
                      "Date":  "2019-01-12",
                      "Hash":  "6c959cfb001fbb900958441dfd8b262fb33e052342948bab338775d3e83ef7f7",
+                     "Confidence":  "100",
                      "PDB":  "t:\\word\\x86\\ship\\0\\winword.pdb",
                      "Software":  "Microsoft Office Word 2007",
                      "Filename":  "WinWord.exe",
@@ -239,6 +258,7 @@
                  {
                      "Date":  "2017-05-24",
                      "Hash":  "9c36a08d9e7932ff4da7b5f24e6b42c92f28685b8abe964c870e8d7670fd531a",
+                     "Confidence":  "100",
                      "PDB":  "GoogleUpdate_unsigned.pdb",
                      "Software":  "Google Update - 1.3.21.103",
                      "Filename":  "GoogleUpdate.exe",
@@ -253,6 +273,7 @@
                  {
                      "Date":  "2017-05-24",
                      "Hash":  "f340c29a59b64fffb918ce2deee7537ebe81639113c50c8aec30d669be9f57ef",
+                     "Confidence":  "100",
                      "PDB":  "-",
                      "Software":  "Kaspersky Anti-Virus - Installation assistant host 2016 - 17.0.0.611",
                      "Filename":  "avpia.exe",
@@ -266,6 +287,7 @@
                  {
                      "Date":  "2020-06-28",
                      "Hash":  "514a6a02d45c2ddfeecf5b48a2c53fed8734a864aeb686b5120502ca4b884198",
+                     "Confidence":  "100",
                      "PDB":  "-",
                      "Software":  "Apple Software Update 2.5.0.1",
                      "Filename":  "SoftwareUpdate.exe",
@@ -279,6 +301,7 @@
                  {
                      "Date":  "2020-06-28",
                      "Hash":  "743ea22ad44de9df5ee7b4c580b3ce5f82d4c4b37024a813f7d0b8512fd7f0d7",
+                     "Confidence":  "100",
                      "PDB":  "-",
                      "Software":  "Apple Software Update 2.5.0.1",
                      "Filename":  "SoftwareUpdateFiles.dll",
@@ -292,6 +315,7 @@
                  {
                      "Date":  "2020-06-16",
                      "Hash":  "69061e33acb7587d773d05000390f9101f71dfd6eed7973b551594eaf3f04193",
+                     "Confidence":  "100",
                      "PDB":  "GoogleUpdate_unsigned.pdb",
                      "Software":  "Google Update - Installer v 1.3.33.5",
                      "Filename":  "GoogleUpdate.exe",
@@ -304,6 +328,7 @@
                  {
                      "Date":  "2018-03-01",
                      "Hash":  "e9a86b63a5b051e3af795eec2f981d691ab2697100c92a7fbc86a7e6885a5ee7",
+                     "Confidence":  "100",
                      "PDB":  "g:\\Acro_root_ns\\BuildResults\\bin\\release\\AcroTranscoder.pdb",
                      "Software":  "Adobe AcroTranscoder 9.0",
                      "Filename":  "AcroTranscoder.exe",
@@ -318,6 +343,7 @@
                  {
                      "Date":  "2018-03-01",
                      "Hash":  "f9ebf6aeb3f0fb0c29bd8f3d652476cd1fe8bd9a0c11cb15c43de33bbce0bf68",
+                     "Confidence":  "100",
                      "PDB":  "c:\\bld_area\\SNAC_11.0-MR4\\Symantec_Network_Access_Control\\Agent\\Windows\\src\\bin.ira\\dot1xtray.pdb",
                      "Software":  "Symantec Network Access Control v 11.0.4010.7",
                      "Filename":  "dot1xtra.exe",
@@ -332,6 +358,7 @@
                  {
                      "Date":  "2018-03-01",
                      "Hash":  "3124fcb79da0bdf9d0d1995e37b06f7929d83c1c4b60e38c104743be71170efe",
+                     "Confidence":  "100",
                      "PDB":  "e:\\buildsystem\\node\\oemmods210_6334888532928.build\\build\\win32\\release\\mcoemcpy.pdb",
                      "Software":  "McAfee OEM Info Copy Files",
                      "Filename":  "mcoemcpy.exe",
@@ -346,6 +373,7 @@
                  {
                      "Date":  "2016-12-02",
                      "Hash":  "9ea663c86dcc705d9a232857f062919f0948ae626a63398f9fe94eed9653654f",
+                     "Confidence":  "80",
                      "PDB":  "-",
                      "Software":  "Kaspersky Product Info library 2016 - 17.0.0.611",
                      "Filename":  "product_info.dll",
@@ -358,6 +386,7 @@
                  {
                      "Date":  "2020-07-31",
                      "Hash":  "80c3e22b640b47e0c41f4185f091e2c523a9ef291a75b7007303e2267b8d68c5",
+                     "Confidence":  "80",
                      "PDB":  "MsMpEng.pdb",
                      "Software":  "Microsoft Malware Protection - 4.10.0209.0",
                      "Filename":  "MsMpEng.exe",
@@ -370,6 +399,7 @@
                  {
                      "Date":  "2020-08-11",
                      "Hash":  "636c5bc3488f39cd967cbc287dc37e420884e1ef64b65238fb8f2dcf941da817",
+                     "Confidence":  "80",
                      "PDB":  "MsMpEng.pdb",
                      "Software":  "Microsoft Malware Protection - 3.0.8107.0",
                      "Filename":  "MsMpEng.exe",
@@ -382,6 +412,7 @@
                  {
                      "Date":  "2020-08-20",
                      "Hash":  "949485ba939953642714ae6831d7dcb261691cac7cbb8c1a9220333801f60820",
+                     "Confidence":  "100",
                      "PDB":  "mshta.pdb",
                      "Software":  "Mshta - 11.00.9600.16428 (winblue_gdr.131013-1700)",
                      "Filename":  "MSHTA.EXE",
@@ -394,6 +425,7 @@
                  {
                      "Date":  "2020-08-21",
                      "Hash":  "560055994a2290b3eb3f354afbf5ebcf4b8d78820f238eae70d76ece81b97c23",
+                     "Confidence":  "80",
                      "PDB":  "d:\\Workspace\\workspace\\ProductionClients-ForRelease\\AVBranding\\avast\\CONFIG\\Release\\label_exp\\WinClient\\BUILDS\\Release\\x86\\wsc_proxy.pdb",      
                      "Software":  "Avast Antivirus - 18.7.4041.0",
                      "Filename":  "wsc_proxy.exe",
@@ -406,6 +438,7 @@
                  {
                      "Date":  "2020-09-09",
                      "Hash":  "95480f8950e9f185c42e34dc045ee802d729e757dd03253ad22e287f566de913",
+                     "Confidence":  "70",
                      "PDB":  "D:\\work\\e0dd96435fde7cb0\\BUILDS\\Release\\x86\\wsc_proxy.pdb",
                      "Software":  "Avast Antivirus - 20.7.5568.0",
                      "Filename":  "wsc_proxy.exe",
@@ -418,6 +451,7 @@
                  {
                      "Date":  "2020-03-17",
                      "Hash":  "7aadcb53ca413648eba86d01490038d4c0763bceb5875abceb10da12d4d6a2dd",
+                     "Confidence":  "80",
                      "PDB":  "e:\\Builds\\Drivers\\Drivers_5.80\\5.80.4\\Sources\\LBTServ\\LBTWiz\\Release\\Win32\\LBTWiz.pdb",
                      "Software":  "Helper library for Winapagent performance optimization and QuickConnect - 10.1.5.2",
                      "Filename":  "LBTWizGi.exe",
@@ -430,6 +464,7 @@
                  {
                   "Date":  "2020-12-01",
                   "Hash":  "4f54a6555a7a3bec84e8193d2ff9ae75eb7f06110505e78337fa2f515790a562",
+                  "Confidence":  "80",
                   "PDB":  "e:\\Documents and Settings\\Smadav\\My Documents\\Visual Studio 2008\\Projects\\SmadHookDev14\\Release\\SmadHookDev.pdb",
                   "Software":  "Smadav Whitelisting Protection 1.0.0.3",
                   "Filename":  "SmadHook.exe",
@@ -442,6 +477,7 @@
                  {
                      "Date":  "2020-12-22",
                      "Hash":  "9831526e475a4ed0d149bec15f69193a48249c3cda1ddb2f2140292afd862cfa",
+                     "Confidence":  "80",
                      "PDB":  "D:\\bamboo\\home\\xml-data\\build-dir\\CODRU-CM-SOURCES\\bin\\x64\\Release\\BdServiceHost.pdb",
                      "Software":  "Bitdefender 2019 - 23.0.19.80",
                      "Filename":  "bdservicehost.exe",
@@ -454,6 +490,7 @@
                  {
                     "Date":  "2019-08-19",
                     "Hash":  "c3159d4f85ceb84c4a0f7ea9208928e729a30ddda4fead7ec6257c7dd1984763",
+                    "Confidence":  "60",
                     "PDB":  "d:\\installbuild\\era\\cvs_era_5_0_sr\\build\\apps\\work\\release\\http_server\\winnt32\\EHttpSrv.pdb",
                     "Software":  "ESET Smart Security - 5.0.511.0",
                     "Filename":  "EHttpSrv.exe",
@@ -462,6 +499,19 @@
                     "References":  [
                        {"Title":"Malware analysis about unknown Chinese APT campaign", "URL":"https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/China/APT/Unknown/20-08-19/Malware%20analysis%2020-08-19.md"}
                    ]
-                }
+                },
+                {
+                   "Date":  "2021-01-05",
+                   "Hash":  "7e53e6a45a76b1104dc8882e0537aec51bb2390c29bdefa21360c59304d7f8f7",
+                   "Confidence":  "60",
+                   "PDB":  "-",
+                   "Software":  "NVIDIA Smart Maximise Helper Host version 100.02",
+                   "Filename":  "NvSmartMaxapp.dll",
+                   "Malware":  "RedDelta PlugX",
+                   "Threat_Actor":  "Mustang Panda",
+                   "References":  [
+                      {"Title":"Malware analysis about Chinese APT sample", "URL":"https://twitter.com/Arkbird_SOLG/status/1346490401964912649"}
+                  ]
+               }
              ]
 }
