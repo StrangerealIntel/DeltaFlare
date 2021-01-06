@@ -3,6 +3,14 @@
 #### This repository content a matrix with the references on legit software abused by Threat Actors for hunt by reuse TTPs methods.
 ## Objectives
 #### This matrix has for objectives for to help to attribution to a Threat Actor that abuse again a legit software for theirs operations or for hunting the activities on the public sandboxes in checking new submissions. This content also references on articles and analysis for check the cases.
+## Release notes 
+
+```
+Release date : "06-Jan-2021"
+Build        : "1.0.1"
+Description  : "Add new references and Confidence feature for ensure that the good affectation"
+```
+
 ## Case study (Positive case)
 #### We take the case for SideWinder group that use ``` EFS REKEY wizard ```, the wizard for the management of EFS solution of Microsoft that vulnerable to side-loading method.
 
@@ -27,6 +35,7 @@ $result
 ```
 Date         : 2019-08-08
 Hash         : fa86b5bc5343ca92c235304b8dcbcf4188c6be7d4621c625564bebd5326ed850
+Confidence   : 100
 PDB          : rekeywiz.pdb
 Software     : EFS REKEY wizard
 Filename     : rekeywiz.exe
@@ -53,6 +62,7 @@ References   : {@{Title=The SideWinder campaign continue; URL=https://github.com
 ```
 Date         : 2020-07-12
 Hash         : 6c959cfb001fbb900958441dfd8b262fb33e052342948bab338775d3e83ef7f7
+Confidence   : 100
 PDB          : t:\word\x86\ship\0\winword.pdb
 Software     : Microsoft Office Word 2007
 Filename     : WinWord.exe
@@ -62,6 +72,7 @@ References   : {@{Title=Mustang Panda group focuses catholic groups in Honk Kong
 
 Date         : 2019-01-12
 Hash         : 6c959cfb001fbb900958441dfd8b262fb33e052342948bab338775d3e83ef7f7
+Confidence   : 100
 PDB          : t:\word\x86\ship\0\winword.pdb
 Software     : Microsoft Office Word 2007
 Filename     : WinWord.exe
@@ -98,6 +109,7 @@ $result
 ```
 Date         : 2020-07-12
 Hash         : 6c959cfb001fbb900958441dfd8b262fb33e052342948bab338775d3e83ef7f7
+Confidence   : 100
 PDB          : t:\word\x86\ship\0\winword.pdb
 Software     : Microsoft Office Word 2007
 Filename     : WinWord.exe
