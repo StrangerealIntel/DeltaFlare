@@ -512,6 +512,21 @@
                    "References":  [
                       {"Title":"Malware analysis about Chinese APT sample", "URL":"https://twitter.com/Arkbird_SOLG/status/1346490401964912649"}
                   ]
-               }
+               },
+               {
+                  "Date":  "2020-08-20",
+                  "Hash":  "047f3c5a7ab0ea05f35b2ca8037bf62dd4228786d07707064dbd0d46569305d0",
+                  "Confidence":  "80",
+                  "PDB":  "wscript.pdb",
+                  "Software":  "Microsoft Windows Based Script Host 5.8.7600.16385",
+                  "Filename":  "wscript.exe",
+                  "Malware":  "VBSGame",
+                  "Threat_Actor":  "Gamaredon Group",
+                  "References":  [
+                     {"Title":"Malware analysis about Russian APT sample", "URL":"https://twitter.com/ShadowChasing1/status/1348220217650946048"},
+                     {"Title":"New sample found", "URL":"https://twitter.com/RedDrip7/status/1348821911979978753"},
+                     {"Title":"TTPs change", "URL":"https://app.any.run/tasks/6693fdb8-ed7d-4cbd-9dd2-892b57804ac3/"}
+                 ]
+              }
              ]
 }
