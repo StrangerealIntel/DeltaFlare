@@ -393,7 +393,7 @@
                      "Malware":  "KerrDown",
                      "Threat_Actor":  "APT32",
                      "References":  [
-                        {"Title":"Another reference", "URL":"https://twitter.com/Arkbird_SOLG/status/1289140108801781760"}
+                        {"Title":"Analysis tweet", "URL":"https://twitter.com/Arkbird_SOLG/status/1289140108801781760"}
                     ]
                  },
                  {
@@ -527,6 +527,32 @@
                      {"Title":"New sample found", "URL":"https://twitter.com/RedDrip7/status/1348821911979978753"},
                      {"Title":"TTPs change", "URL":"https://app.any.run/tasks/6693fdb8-ed7d-4cbd-9dd2-892b57804ac3/"}
                  ]
-              }
-             ]
+              },
+              {
+               "Date":  "2021-01-12",
+               "Hash":  "386eb7aa33c76ce671d6685f79512597f1fab28ea46c8ec7d89e58340081e2bd",
+               "Confidence":  "60",
+               "PDB":  "d:\\Bamboo\\home\\xml-data\\build-dir\\COMMON-TRUNK-SOURCES\\bin\\Win32\\Release\\BDReinit.pdb",
+               "Software":  "BitDefender Crash Handler 1.0.28.140",
+               "Filename":  "BDReinit.exe",
+               "Malware":  "RouterGod",
+               "Threat_Actor":  "APT41",
+               "References":  [
+                  {"Title":"Redacted", "URL":"-"}
+              ]
+           },
+           {
+            "Date":  "2021-01-28",
+            "Hash":  "554d610b30ac06081b0e86c918460fd0ebf41a465eb6a12a04e119c004494ee1",
+            "Confidence":  "80",
+            "PDB":  "kernel32.pdb",
+            "Software":  "Windows NT BASE API Client DLL 6.1.7601.17932 (win7sp1_gdr.120820-0419)",
+            "Filename":  "kernel32.dll",
+            "Malware":  "KerrDown",
+            "Threat_Actor":  "APT32",
+            "References":  [
+               {"Title":"Analysis tweet", "URL":"https://twitter.com/Arkbird_SOLG/status/1289140108801781760"}
+           ]
+        }
+    ]   
 }
