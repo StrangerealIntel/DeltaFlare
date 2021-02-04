@@ -1,7 +1,7 @@
 {
     "header":  {
                    "Version":  "1.0.11",
-                   "Date":  "2021-01-12"
+                   "Date":  "2021-02-04"
                },
     "data":  [
                  {
@@ -553,6 +553,32 @@
             "References":  [
                {"Title":"Analysis tweet", "URL":"https://twitter.com/Arkbird_SOLG/status/1289140108801781760"}
            ]
-        }
-    ]   
+        },
+        {
+         "Date":  "2020-12-01",
+         "Hash":  "1cffdfbe9070ea6afc0c87681d0050f5cbb2f5171cd1eecb8428dc2e7eff6c0e",
+         "Confidence":  "70",
+         "PDB":  "C:\\Users\\ziguochen\\Desktop\\Collect\\work\\Driver\\ACPIVPC\\code\\AcpiVpc\\x64\\Win8Release\\AcpiVpc.pdb",
+         "Software":  "ACPI Virtual Power Controller Driver - 1.5.0.18",
+         "Filename":  "EnergyVpc.sys",
+         "Malware":  "RedDelta",
+         "Threat_Actor":  "Mustang Panda",
+         "References":  [
+            {"Title":"Analysis tweet", "URL":"https://twitter.com/XOR_Hex/status/1333832546589749249"}
+        ]
+     },
+     {
+      "Date":  "2021-02-04",
+      "Hash":  "fb5edfcba99e2df2b7f6f40e8615f5cb247803180464e584161c7c91405aae4a",
+      "Confidence":  "70",
+      "PDB":  "C:\\jenkins\\workspace\\CommonTools\\Rig\\source\bin\\Release\\32bit\\client_1.0.2454.8\\RzCefRenderProcess.pdb",
+      "Software":  "Razer Chromium Render Process - 1.0.12.10203",
+      "Filename":  "RzCefRenderProcess.exe",
+      "Malware":  "RedDelta",
+      "Threat_Actor":  "Mustang Panda",
+      "References":  [
+         {"Title":"Analysis tweet", "URL":"https://twitter.com/XOR_Hex/status/1357433330053038081"}
+     ]
+   }
+ ]   
 }
