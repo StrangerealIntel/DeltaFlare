@@ -1,7 +1,7 @@
 {
     "header":  {
-                   "Version":  "1.0.11",
-                   "Date":  "2021-02-04"
+                   "Version":  "1.0.3",
+                   "Date":  "2021-03-27"
                },
     "data":  [
                  {
@@ -462,17 +462,17 @@
                     ]
                  },
                  {
-                  "Date":  "2020-12-01",
-                  "Hash":  "4f54a6555a7a3bec84e8193d2ff9ae75eb7f06110505e78337fa2f515790a562",
-                  "Confidence":  "80",
-                  "PDB":  "e:\\Documents and Settings\\Smadav\\My Documents\\Visual Studio 2008\\Projects\\SmadHookDev14\\Release\\SmadHookDev.pdb",
-                  "Software":  "Smadav Whitelisting Protection 1.0.0.3",
-                  "Filename":  "SmadHook.exe",
-                  "Malware":  "RedDelta PlugX",
-                  "Threat_Actor":  "Mustang Panda",
-                  "References":  [
-                     {"Title":"Discovery tweet", "URL":"https://twitter.com/XOR_Hex/status/1333832546589749249"}
-                 ]
+                     "Date":  "2020-12-01",
+                     "Hash":  "4f54a6555a7a3bec84e8193d2ff9ae75eb7f06110505e78337fa2f515790a562",
+                     "Confidence":  "80",
+                     "PDB":  "e:\\Documents and Settings\\Smadav\\My Documents\\Visual Studio 2008\\Projects\\SmadHookDev14\\Release\\SmadHookDev.pdb",
+                     "Software":  "Smadav Whitelisting Protection 1.0.0.3",
+                     "Filename":  "SmadHook.exe",
+                     "Malware":  "RedDelta PlugX",
+                     "Threat_Actor":  "Mustang Panda",
+                     "References":  [
+                        {"Title":"Discovery tweet", "URL":"https://twitter.com/XOR_Hex/status/1333832546589749249"}
+                  ]
                  },
                  {
                      "Date":  "2020-12-22",
@@ -499,86 +499,113 @@
                     "References":  [
                        {"Title":"Malware analysis about unknown Chinese APT campaign", "URL":"https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/China/APT/Unknown/20-08-19/Malware%20analysis%2020-08-19.md"}
                    ]
-                },
-                {
-                   "Date":  "2021-01-05",
-                   "Hash":  "7e53e6a45a76b1104dc8882e0537aec51bb2390c29bdefa21360c59304d7f8f7",
-                   "Confidence":  "60",
-                   "PDB":  "-",
-                   "Software":  "NVIDIA Smart Maximise Helper Host version 100.02",
-                   "Filename":  "NvSmartMaxapp.dll",
-                   "Malware":  "RedDelta PlugX",
-                   "Threat_Actor":  "Mustang Panda",
-                   "References":  [
-                      {"Title":"Malware analysis about Chinese APT sample", "URL":"https://twitter.com/Arkbird_SOLG/status/1346490401964912649"}
+                  },
+                  {
+                     "Date":  "2021-01-05",
+                     "Hash":  "7e53e6a45a76b1104dc8882e0537aec51bb2390c29bdefa21360c59304d7f8f7",
+                     "Confidence":  "60",
+                     "PDB":  "-",
+                     "Software":  "NVIDIA Smart Maximise Helper Host version 100.02",
+                     "Filename":  "NvSmartMaxapp.dll",
+                     "Malware":  "RedDelta PlugX",
+                     "Threat_Actor":  "Mustang Panda",
+                     "References":  [
+                        {"Title":"Malware analysis about Chinese APT sample", "URL":"https://twitter.com/Arkbird_SOLG/status/1346490401964912649"}
+                     ]
+                  },
+                  {
+                     "Date":  "2020-08-20",
+                     "Hash":  "047f3c5a7ab0ea05f35b2ca8037bf62dd4228786d07707064dbd0d46569305d0",
+                     "Confidence":  "80",
+                     "PDB":  "wscript.pdb",
+                     "Software":  "Microsoft Windows Based Script Host 5.8.7600.16385",
+                     "Filename":  "wscript.exe",
+                     "Malware":  "VBSGame",
+                     "Threat_Actor":  "Gamaredon Group",
+                     "References":  [
+                        {"Title":"Malware analysis about Russian APT sample", "URL":"https://twitter.com/ShadowChasing1/status/1348220217650946048"},
+                        {"Title":"New sample found", "URL":"https://twitter.com/RedDrip7/status/1348821911979978753"},
+                        {"Title":"TTPs change", "URL":"https://app.any.run/tasks/6693fdb8-ed7d-4cbd-9dd2-892b57804ac3/"}
                   ]
-               },
-               {
-                  "Date":  "2020-08-20",
-                  "Hash":  "047f3c5a7ab0ea05f35b2ca8037bf62dd4228786d07707064dbd0d46569305d0",
-                  "Confidence":  "80",
-                  "PDB":  "wscript.pdb",
-                  "Software":  "Microsoft Windows Based Script Host 5.8.7600.16385",
-                  "Filename":  "wscript.exe",
-                  "Malware":  "VBSGame",
-                  "Threat_Actor":  "Gamaredon Group",
-                  "References":  [
-                     {"Title":"Malware analysis about Russian APT sample", "URL":"https://twitter.com/ShadowChasing1/status/1348220217650946048"},
-                     {"Title":"New sample found", "URL":"https://twitter.com/RedDrip7/status/1348821911979978753"},
-                     {"Title":"TTPs change", "URL":"https://app.any.run/tasks/6693fdb8-ed7d-4cbd-9dd2-892b57804ac3/"}
-                 ]
-              },
-              {
-               "Date":  "2021-01-12",
-               "Hash":  "386eb7aa33c76ce671d6685f79512597f1fab28ea46c8ec7d89e58340081e2bd",
-               "Confidence":  "60",
-               "PDB":  "d:\\Bamboo\\home\\xml-data\\build-dir\\COMMON-TRUNK-SOURCES\\bin\\Win32\\Release\\BDReinit.pdb",
-               "Software":  "BitDefender Crash Handler 1.0.28.140",
-               "Filename":  "BDReinit.exe",
-               "Malware":  "RouterGod",
-               "Threat_Actor":  "APT41",
-               "References":  [
-                  {"Title":"Redacted", "URL":"-"}
-              ]
-           },
-           {
-            "Date":  "2021-01-28",
-            "Hash":  "554d610b30ac06081b0e86c918460fd0ebf41a465eb6a12a04e119c004494ee1",
-            "Confidence":  "80",
-            "PDB":  "kernel32.pdb",
-            "Software":  "Windows NT BASE API Client DLL 6.1.7601.17932 (win7sp1_gdr.120820-0419)",
-            "Filename":  "kernel32.dll",
-            "Malware":  "KerrDown",
-            "Threat_Actor":  "APT32",
-            "References":  [
-               {"Title":"Analysis tweet", "URL":"https://twitter.com/Arkbird_SOLG/status/1289140108801781760"}
-           ]
-        },
-        {
-         "Date":  "2020-12-01",
-         "Hash":  "1cffdfbe9070ea6afc0c87681d0050f5cbb2f5171cd1eecb8428dc2e7eff6c0e",
-         "Confidence":  "70",
-         "PDB":  "C:\\Users\\ziguochen\\Desktop\\Collect\\work\\Driver\\ACPIVPC\\code\\AcpiVpc\\x64\\Win8Release\\AcpiVpc.pdb",
-         "Software":  "ACPI Virtual Power Controller Driver - 1.5.0.18",
-         "Filename":  "EnergyVpc.sys",
-         "Malware":  "RedDelta",
-         "Threat_Actor":  "Mustang Panda",
-         "References":  [
-            {"Title":"Analysis tweet", "URL":"https://twitter.com/XOR_Hex/status/1333832546589749249"}
-        ]
-     },
-     {
-      "Date":  "2021-02-04",
-      "Hash":  "fb5edfcba99e2df2b7f6f40e8615f5cb247803180464e584161c7c91405aae4a",
-      "Confidence":  "70",
-      "PDB":  "C:\\jenkins\\workspace\\CommonTools\\Rig\\source\bin\\Release\\32bit\\client_1.0.2454.8\\RzCefRenderProcess.pdb",
-      "Software":  "Razer Chromium Render Process - 1.0.12.10203",
-      "Filename":  "RzCefRenderProcess.exe",
-      "Malware":  "RedDelta",
-      "Threat_Actor":  "Mustang Panda",
-      "References":  [
-         {"Title":"Analysis tweet", "URL":"https://twitter.com/XOR_Hex/status/1357433330053038081"}
-     ]
-   }
- ]   
+                  },
+                  {
+                     "Date":  "2021-01-12",
+                     "Hash":  "386eb7aa33c76ce671d6685f79512597f1fab28ea46c8ec7d89e58340081e2bd",
+                     "Confidence":  "60",
+                     "PDB":  "d:\\Bamboo\\home\\xml-data\\build-dir\\COMMON-TRUNK-SOURCES\\bin\\Win32\\Release\\BDReinit.pdb",
+                     "Software":  "BitDefender Crash Handler 1.0.28.140",
+                     "Filename":  "BDReinit.exe",
+                     "Malware":  "RouterGod",
+                     "Threat_Actor":  "APT41",
+                     "References":  [
+                        {"Title":"Redacted", "URL":"-"}
+                  ]
+                  },
+                  {
+                     "Date":  "2021-01-28",
+                     "Hash":  "554d610b30ac06081b0e86c918460fd0ebf41a465eb6a12a04e119c004494ee1",
+                     "Confidence":  "80",
+                     "PDB":  "kernel32.pdb",
+                     "Software":  "Windows NT BASE API Client DLL 6.1.7601.17932 (win7sp1_gdr.120820-0419)",
+                     "Filename":  "kernel32.dll",
+                     "Malware":  "KerrDown",
+                     "Threat_Actor":  "APT32",
+                     "References":  [
+                        {"Title":"Analysis tweet", "URL":"https://twitter.com/Arkbird_SOLG/status/1289140108801781760"}
+                  ]
+                  },
+                  {
+                     "Date":  "2020-12-01",
+                     "Hash":  "1cffdfbe9070ea6afc0c87681d0050f5cbb2f5171cd1eecb8428dc2e7eff6c0e",
+                     "Confidence":  "70",
+                     "PDB":  "C:\\Users\\ziguochen\\Desktop\\Collect\\work\\Driver\\ACPIVPC\\code\\AcpiVpc\\x64\\Win8Release\\AcpiVpc.pdb",
+                     "Software":  "ACPI Virtual Power Controller Driver - 1.5.0.18",
+                     "Filename":  "EnergyVpc.sys",
+                     "Malware":  "RedDelta",
+                     "Threat_Actor":  "Mustang Panda",
+                     "References":  [
+                        {"Title":"Analysis tweet", "URL":"https://twitter.com/XOR_Hex/status/1333832546589749249"}
+                  ]
+                  },
+                  {
+                     "Date":  "2021-02-04",
+                     "Hash":  "fb5edfcba99e2df2b7f6f40e8615f5cb247803180464e584161c7c91405aae4a",
+                     "Confidence":  "70",
+                     "PDB":  "C:\\jenkins\\workspace\\CommonTools\\Rig\\source\bin\\Release\\32bit\\client_1.0.2454.8\\RzCefRenderProcess.pdb",
+                     "Software":  "Razer Chromium Render Process - 1.0.12.10203",
+                     "Filename":  "RzCefRenderProcess.exe",
+                     "Malware":  "RedDelta",
+                     "Threat_Actor":  "Mustang Panda",
+                     "References":  [
+                        {"Title":"Analysis tweet", "URL":"https://twitter.com/XOR_Hex/status/1357433330053038081"}
+                  ]
+                  },
+                  {
+                     "Date":  "2020-11-27",
+                     "Hash":  "6768dc8a512ace3a954142744dc1030f8f92cf2cf9bb3f6273bc28cdd92fe860",
+                     "Confidence":  "60",
+                     "PDB":  "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Samples\\C++\\Misc\\GameuxInstallHelper\\Release\\GDFInstall.pdb",
+                     "Software":  "Ubisoft DirectX SDK Installer",
+                     "Filename":  "GDFInstall.exe",
+                     "Malware":  "Polar ransomware",
+                     "Threat_Actor":  "APT27",
+                     "References":  [
+                        {"Title":"Investigation with a twist: an accidental APT attack and averted data destruction", "URL":"https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/incident-response-polar-ransomware-apt27/"}
+                     ]
+                  },
+                  {
+                     "Date":  "2021-03-27",
+                     "Hash":  "35ba7624f586086f32a01459fcc0ab755b01b49d571618af456aa49e593734c7",
+                     "Confidence":  "80",
+                     "PDB":  "-",
+                     "Software":  "Command Line XSLT 1.1.0.1 (used in the Anyrun master)",
+                     "Filename":  "msxsl.exe",
+                     "Malware":  "Terraloader",
+                     "Threat_Actor":  "more_eggs",
+                     "References":  [
+                        {"Title":"Analysis of Normal version", "URL":"https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/Additional%20Analysis/Terraloader/02-01-20/Analysis.md"},
+                        {"Title":"Analysis of improvement of the Normal version", "URL":"https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/Additional%20Analysis/Terraloader/2020-04-12/Analysis.md"}
+                     ]
+                  }
+             ]   
 }
