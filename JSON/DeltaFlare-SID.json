@@ -1,0 +1,519 @@
+{
+    "header":  {
+                   "Product": "DeltaFlare - Tracker - SID",
+                   "Version":  "1.0.0",
+                   "Date":  "2021-06-28"
+               },
+    "data":  [
+        {
+            "Date":  "2018-06-04",
+            "SID":  "2025894",
+            "Confidence":  "60",
+            "Description":  "ET TROJAN OilRig QUADAGENT DNS Tunneling",
+            "Malware":  "QUADAGENT",
+            "Organization":  "APT34",
+            "References":  [
+                               {"Title":"DNS Tunneling in the Wild: Overview of OilRig’s DNS Tunneling", "URL":"https://unit42.paloaltonetworks.com/dns-tunneling-in-the-wild-overview-of-oilrigs-dns-tunneling/"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/165e7a83-af6b-4375-bd3a-4505a019ddcc/"}
+                          ]
+        },
+        {
+            "Date":  "2019-02-05",
+            "SID":  "4001410",
+            "Confidence":  "60",
+            "Description":  "AV TROJAN Gamaredon Group Pteranodon Implant",
+            "Malware":  "Pteranodon",
+            "Organization":  "Gamaredon Group",
+            "References":  [
+                               {"Title":"The Gamaredon Group Toolset Evolution", "URL":"https://unit42.paloaltonetworks.com/unit-42-title-gamaredon-group-toolset-evolution/"},
+                               {"Title":"Pro-Russian CyberSpy Gamaredon Intensifies Ukrainian Security Targeting", "URL":"https://labs.sentinelone.com/pro-russian-cyberspy-gamaredon-intensifies-ukrainian-security-targeting/"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/86122f77-3ced-45f7-b192-0600ed032749/"}
+                          ]
+        },
+        {
+            "Date":  "2019-08-10",
+            "SID":  "10004298",
+            "Confidence":  "60",
+            "Description":  "MALWARE [PTsecurity] Trojan/Sednit SSL certificate",
+            "Malware":  "Seduploader",
+            "Organization":  "APT28",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/9abe2703-3750-4728-a932-129177b2a72a/"},
+                              {"URL":"https://app.any.run/tasks/d6a8d1db-52c8-4371-b6d3-bf740408bb10/"}
+                          ]
+        },
+        {
+            "Date":  "2020-03-31",
+            "SID":  "2027392",
+            "Confidence":  "70",
+            "Description":  "ET TROJAN Maze/ID Ransomware Activity",
+            "Malware":  "MAZE",
+            "Organization":  "-",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/ff65f125-2be8-4bb0-b83f-4003b157a2bb/"}
+                          ]
+        },
+        {
+            "Date":  "2020-06-09",
+            "SID":  "10005797",
+            "Confidence":  "60",
+            "Description":  "MINER [PTsecurity] Phorpiex Config",
+            "Malware":  "Phorpiex",
+            "Organization":  "-",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/a6c88eb3-0b30-4a2a-a4d0-9ca52a0501a2/"}
+                          ]
+        },
+        {
+            "Date":  "2020-07-03",
+            "SID":  "10000666",
+            "Confidence":  "90",
+            "Description":  "REMOTE [PTsecurity] Crimson",
+            "Malware":  "Crimson RAT",
+            "Organization":  "Transparent Tribe",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/89fe977e-2d79-4803-ad48-546a92756bb2/"},
+                              {"URL":"https://app.any.run/tasks/d09a367d-59a6-4961-942b-c3dc28bd15fc/"}
+                          ]
+        },
+        {
+            "Date":  "2020-08-20",
+            "SID":  "2848229",
+            "Confidence":  "60",
+            "Description":  "ETPRO TROJAN Possible Gamaredon MalDoc CnC Exfil",
+            "Malware":  "VBSGame",
+            "Organization":  "Gamaredon Group",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/5d76e7cc-915c-43fe-8263-085c48777b27/"}
+                          ]
+        },
+        {
+            "Date":  "2020-08-20",
+            "SID":  "2845049",
+            "Confidence":  "60",
+            "Description":  "ETPRO TROJAN VBS/Dojos Downloader Activity M2",
+            "Malware":  "VBSGame",
+            "Organization":  "Gamaredon Group",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/5d76e7cc-915c-43fe-8263-085c48777b27/"}
+                          ]
+        },
+        {
+            "Date":  "2021-01-02",
+            "SID":  "2018228",
+            "Confidence":  "60",
+            "Description":  "ET TROJAN Possible PlugX Common Header Struct",
+            "Malware":  "PlugX",
+            "Organization":  "Chinese APT group",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/d4b99422-c604-439b-a5bd-35783219a8dc/"}
+                          ]
+        },
+        {
+            "Date":  "2021-01-02",
+            "SID":  "4002157",
+            "Confidence":  "60",
+            "Description":  "AV TROJAN PlugX Common Header Struct",
+            "Malware":  "PlugX",
+            "Organization":  "Chinese APT group",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/d4b99422-c604-439b-a5bd-35783219a8dc/"}
+                          ]
+        },
+        {
+            "Date":  "2021-01-16",
+            "SID":  "2016803",
+            "Confidence":  "70",
+            "Description":  "ET TROJAN Known Sinkhole Response Header",
+            "Malware":  "-",
+            "Organization":  "APT 29",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/e4d7a6cb-b2ef-4295-9383-0c1238736845/"}
+                          ]
+        },
+        {
+            "Date":  "2021-01-31",
+            "SID":  "2024732",
+            "Confidence":  "80",
+            "Description":  "ET TROJAN DNS Query For TURNEDUP.Backdoor CnC (googlmail)",
+            "Malware":  "StoneDrill",
+            "Organization":  "APT33",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/28b565ff-03b8-49bd-b2b1-b9ada4594d17/"}
+                          ]
+        },
+        {
+            "Date":  "2021-01-31",
+            "SID":  "4000230",
+            "Confidence":  "80",
+            "Description":  "AV TROJAN StoneDrill POST Login Request",
+            "Malware":  "StoneDrill",
+            "Organization":  "APT33",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/28b565ff-03b8-49bd-b2b1-b9ada4594d17/"}
+                          ]
+        },
+        {
+            "Date":  "2021-01-31",
+            "SID":  "10001096",
+            "Confidence":  "80",
+            "Description":  "MALWARE [PTsecurity] StoneDrill C2 Check-in",
+            "Malware":  "StoneDrill",
+            "Organization":  "APT33",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/28b565ff-03b8-49bd-b2b1-b9ada4594d17/"}
+                          ]
+        },
+        {
+            "Date":  "2021-02-12",
+            "SID":  "2031520",
+            "Confidence":  "70",
+            "Description":  "ET TROJAN PlugX DNS Lookup",
+            "Malware":  "PlugX",
+            "Organization":  "Chinese APT group",
+            "References":  [
+                                 {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                                {"URL":"https://app.any.run/tasks/ba8c7e60-d3c1-4e6d-a3c5-9d730e083201/"},
+                                {"URL":"https://app.any.run/tasks/63c877e6-2496-44ee-a0e8-f65e0b23dc9e/"}
+                          ]
+        },
+        {
+            "Date":  "2021-03-27",
+            "SID":  "10005798",
+            "Confidence":  "80",
+            "Description":  "SPYWARE [PTsecurity] Possible More_eggs",
+            "Malware":  "Terraloader",
+            "Organization":  "more_eggs",
+            "References":  [
+                               {"Title":"Analysis of Terraloader sample", "URL":"https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/Additional%20Analysis/Terraloader/02-01-20/Analysis.md"},
+                               {"Title":"Easter's time : Hunting for get more_eggs", "URL":"https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/Additional%20Analysis/Terraloader/2020-04-12/Analysis.md"} 
+                           ],
+            "Resources":  [
+                                {"URL":"https://app.any.run/tasks/b1d3a533-912b-4fe9-86cc-69d4bda40453/"} 
+                          ]
+        },
+        {
+            "Date":  "2021-04-05",
+            "SID":  "2032894",
+            "Confidence":  "60",
+            "Description":  "ET TROJAN Observed DarkSide Ransomware Domain (baroquetees .com in TLS SNI)",
+            "Malware":  "Darkside",
+            "Organization":  "RAAS",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/4e28af3c-685c-4af1-9363-49b36bf119f6/"}
+                          ]
+        },
+        {
+            "Date":  "2021-04-14",
+            "SID":  "2025916",
+            "Confidence":  "60",
+            "Description":  "ET CURRENT_EVENTS Possible Underminer EK Landing",
+            "Malware":  "Underminer",
+            "Organization":  "-",
+            "References":  [
+                               {"Title":"Bootkit, Miner Delivered by New Underminer Exploit Kit", "URL":"https://www.trendmicro.com/en_us/research/18/g/new-underminer-exploit-kit-delivers-bootkit-and-cryptocurrency-mining-malware-with-encrypted-tcp-tunnel.html"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/f0937930-514a-4dab-bb82-26352446b7f4/"}
+                          ]
+        },
+        {
+            "Date":  "2021-04-14",
+            "SID":  "2026424",
+            "Confidence":  "60",
+            "Description":  "ET CURRENT_EVENTS Underminer EK Plugin Check",
+            "Malware":  "Underminer",
+            "Organization":  "-",
+            "References":  [
+                               {"Title":"Bootkit, Miner Delivered by New Underminer Exploit Kit", "URL":"https://www.trendmicro.com/en_us/research/18/g/new-underminer-exploit-kit-delivers-bootkit-and-cryptocurrency-mining-malware-with-encrypted-tcp-tunnel.html"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/f0937930-514a-4dab-bb82-26352446b7f4/"}
+                          ]
+        },
+        {
+            "Date":  "2021-04-14",
+            "SID":  "4001575",
+            "Confidence":  "60",
+            "Description":  "AV MALWARE Underminer Exploit Kit Payload Download",
+            "Malware":  "Underminer",
+            "Organization":  "-",
+            "References":  [
+                               {"Title":"Bootkit, Miner Delivered by New Underminer Exploit Kit", "URL":"https://www.trendmicro.com/en_us/research/18/g/new-underminer-exploit-kit-delivers-bootkit-and-cryptocurrency-mining-malware-with-encrypted-tcp-tunnel.html"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/f0937930-514a-4dab-bb82-26352446b7f4/"}
+                          ]
+        },
+        {
+            "Date":  "2021-04-14",
+            "SID":  "2025911",
+            "Confidence":  "60",
+            "Description":  "ET CURRENT_EVENTS Underminer EK IE Exploit",
+            "Malware":  "Underminer",
+            "Organization":  "-",
+            "References":  [
+                               {"Title":"Bootkit, Miner Delivered by New Underminer Exploit Kit", "URL":"https://www.trendmicro.com/en_us/research/18/g/new-underminer-exploit-kit-delivers-bootkit-and-cryptocurrency-mining-malware-with-encrypted-tcp-tunnel.html"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/f0937930-514a-4dab-bb82-26352446b7f4/"}
+                          ]
+        },
+        {
+            "Date":  "2021-04-14",
+            "SID":  "2026422",
+            "Confidence":  "60",
+            "Description":  "ET CURRENT_EVENTS Underminer EK Resource File Download M1",
+            "Malware":  "Underminer",
+            "Organization":  "-",
+            "References":  [
+                                {"Title":"Bootkit, Miner Delivered by New Underminer Exploit Kit", "URL":"https://www.trendmicro.com/en_us/research/18/g/new-underminer-exploit-kit-delivers-bootkit-and-cryptocurrency-mining-malware-with-encrypted-tcp-tunnel.html"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/f0937930-514a-4dab-bb82-26352446b7f4/"}
+                          ]
+        },
+        {
+            "Date":  "2021-04-14",
+            "SID":  "2026423",
+            "Confidence":  "60",
+            "Description":  "ET CURRENT_EVENTS Underminer EK Resource File Download M2",
+            "Malware":  "Underminer",
+            "Organization":  "-",
+            "References":  [
+                               {"Title":"Bootkit, Miner Delivered by New Underminer Exploit Kit", "URL":"https://www.trendmicro.com/en_us/research/18/g/new-underminer-exploit-kit-delivers-bootkit-and-cryptocurrency-mining-malware-with-encrypted-tcp-tunnel.html"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/f0937930-514a-4dab-bb82-26352446b7f4/"}
+                          ]
+        },
+        {
+            "Date":  "2021-04-14",
+            "SID":  "2025916",
+            "Confidence":  "60",
+            "Description":  "ET CURRENT_EVENTS Possible Underminer EK Landing",
+            "Malware":  "Underminer",
+            "Organization":  "-",
+            "References":  [
+                                {"Title":"Bootkit, Miner Delivered by New Underminer Exploit Kit", "URL":"https://www.trendmicro.com/en_us/research/18/g/new-underminer-exploit-kit-delivers-bootkit-and-cryptocurrency-mining-malware-with-encrypted-tcp-tunnel.html"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/f0937930-514a-4dab-bb82-26352446b7f4/"}
+                          ]
+        },
+        {
+            "Date":  "2021-04-18",
+            "SID":  "2032921",
+            "Confidence":  "60",
+            "Description":  "ET TROJAN Kimsuky APT CnC Domain in DNS Lookup",
+            "Malware":  "-",
+            "Organization":  "Kimsuky",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/a88832f8-8a51-484d-88fb-fdcf72e9814c/"}
+                          ]
+        },
+        {
+            "Date":  "2021-06-01",
+            "SID":  "4002576",
+            "Confidence":  "60",
+            "Description":  "AV TROJAN RedLine Stealer Config Download",
+            "Malware":  "RedLine",
+            "Organization":  "-",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                                {"URL":"https://app.any.run/tasks/0b736003-45dc-417b-9593-106f569de09d/"}
+                          ]
+        },
+        {
+            "Date":  "2021-06-07",
+            "SID":  "2033096",
+            "Confidence":  "70",
+            "Description":  "ET TROJAN APT28/SkinnyBoy Checkin",
+            "Malware":  "Skinnyboy",
+            "Organization":  "APT 28",
+            "References":  [
+                                {"Title":"-", "URL":"-"}               
+                
+                           ],
+            "Resources":  [
+                                {"URL":"https://app.any.run/tasks/780d4c5d-c34e-42c8-9ee7-0b2f6664d207/"}
+                          ]
+        },
+        {
+            "Date":  "2021-06-07",
+            "SID":  "2033097",
+            "Confidence":  "70",
+            "Description":  "ET TROJAN APT28/SkinnyBoy Payload Request",
+            "Malware":  "Skinnyboy",
+            "Organization":  "APT 28",
+            "References":  [
+                                {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                                {"URL":"https://app.any.run/tasks/780d4c5d-c34e-42c8-9ee7-0b2f6664d207/"}
+                          ]
+        },
+        {
+            "Date":  "2020-06-16",
+            "SID":  "2023619",
+            "Confidence":  "70",
+            "Description":  "ET TROJAN Ransomware/Cerber Checkin M3 (8)",
+            "Malware":  "Cerber",
+            "Organization":  "-",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/60ad4105-b369-46e8-88f7-9e83f699018c/"}
+                          ]
+        },
+        {
+            "Date":  "2020-06-16",
+            "SID":  "2023620",
+            "Confidence":  "70",
+            "Description":  "ET TROJAN Ransomware/Cerber Checkin M3 (9)",
+            "Malware":  "Cerber",
+            "Organization":  "-",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/027c00af-7e61-4b48-93db-cf6d82a68273/"}
+                          ]
+        },
+        {
+            "Date":  "2021-06-23",
+            "SID":  "2033138",
+            "Confidence":  "60",
+            "Description":  "ET TROJAN Observed FIN7 CnC Domain (injuryless .com in TLS SNI)",
+            "Malware":  "JSSLoader",
+            "Organization":  "FIN7",
+            "References":  [
+                               {"Title":"-", "URL":"-"}
+                           ],
+            "Resources":  [
+                              {"URL":"https://app.any.run/tasks/de979d55-808b-4f54-bdc8-a53a3e4f1ce7/"}
+                          ]
+        },
+        {
+            "Date":  "2021-06-26",
+            "SID":  "2033072",
+            "Confidence":  "50",
+            "Description":  "ET TROJAN FIN7 JSSLoader Variant Activity (POST)",
+            "Malware":  "JSSLoader",
+            "Organization":  "FIN7",
+            "References":  [
+                               {"Title":"https://www.proofpoint.com/us/blog/threat-insight/jssloader-recoded-and-reloaded", "URL":"https://www.proofpoint.com/us/blog/threat-insight/jssloader-recoded-and-reloaded"}
+                           ],
+            "Resources":  [
+                              {"URL":"-"}
+                          ]
+        },
+        {
+            "Date":  "2021-06-26",
+            "SID":  "2033074",
+            "Confidence":  "50",
+            "Description":  "ET TROJAN FIN7 JSSLoader Variant Activity (GET)",
+            "Malware":  "JSSLoader",
+            "Organization":  "FIN7",
+            "References":  [
+                                {"Title":"https://www.proofpoint.com/us/blog/threat-insight/jssloader-recoded-and-reloaded", "URL":"https://www.proofpoint.com/us/blog/threat-insight/jssloader-recoded-and-reloaded"}
+                           ],
+            "Resources":  [
+                              {"URL":"-"}
+                          ]
+        },
+        {
+            "Date":  "2021-06-26",
+            "SID":  "2838606",
+            "Confidence":  "50",
+            "Description":  "ETPRO TROJAN Win32/jssLoader CnC Activity",
+            "Malware":  "JSSLoader",
+            "Organization":  "FIN7",
+            "References":  [
+                                {"Title":"https://www.proofpoint.com/us/blog/threat-insight/jssloader-recoded-and-reloaded", "URL":"https://www.proofpoint.com/us/blog/threat-insight/jssloader-recoded-and-reloaded"}
+                           ],
+            "Resources":  [
+                              {"URL":"-"}
+                          ]
+        },
+        {
+            "Date":  "2021-06-26",
+            "SID":  "2838607",
+            "Confidence":  "50",
+            "Description":  "ETPRO TROJAN Win32/jssLoader CnC Checkin",
+            "Malware":  "JSSLoader",
+            "Organization":  "FIN7",
+            "References":  [
+                                {"Title":"https://www.proofpoint.com/us/blog/threat-insight/jssloader-recoded-and-reloaded", "URL":"https://www.proofpoint.com/us/blog/threat-insight/jssloader-recoded-and-reloaded"}
+                           ],
+            "Resources":  [
+                              {"URL":"-"}
+                          ]
+        },
+        {
+            "Date":  "2021-06-26",
+            "SID":  "2842028",
+            "Confidence":  "50",
+            "Description":  "ETPRO TROJAN JSSLoader CnC Host Checkin ",
+            "Malware":  "JSSLoader",
+            "Organization":  "FIN7",
+            "References":  [
+                                {"Title":"https://www.proofpoint.com/us/blog/threat-insight/jssloader-recoded-and-reloaded", "URL":"https://www.proofpoint.com/us/blog/threat-insight/jssloader-recoded-and-reloaded"}
+                           ],
+            "Resources":  [
+                              {"URL":"-"}
+                          ]
+        }
+    ]  
+}
