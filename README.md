@@ -28,10 +28,10 @@ Description  :
 
 <ul>
 <li>CSV</li>
-<h4>The CSV output can be downloaded and used by a third part software or can be consulted in the github page for search by keywords.</h4>
+<h4>The CSV output can be downloaded and used by a third-party software or can be consulted in the github page for search by keywords.</h4>
 <img src="https://raw.githubusercontent.com/StrangerealIntel/DeltaFlare/main/Pictures/QueryGithub.png"></img>
 <li>JSON</li>
-<h4>The JSON output can be used by a third part software for the survey tasks in proactive hunting or search by keywords.</h4>
+<h4>The JSON output can be used by a third-party software for the survey tasks in proactive hunting or search by keywords.</h4>
 </ul>
 
 <h4> Note : On the CSV output, the separator for the sections is "," and for the references and links is ";". This allows to be parsed by github for the search keywords and list the references in one line (Github limits the number of lines that can parse in the dynamic page).</h4>
