@@ -11,7 +11,7 @@ Build        : 1.0.3
 Description  : 
                 - Add new references
                 - Update the existant data or add on the new data with anyrun links for the TTPs
-                - New tracker for the SID (CSV/JSON output)                
+                - New tracker for the SID (CSV/JSON output) [Thanks to @BushidoToken for help]              
 ==============================
 Release date : 27-Mar-2021
 Build        : 1.0.2
