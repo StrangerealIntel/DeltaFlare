@@ -6,10 +6,35 @@
 ## Release notes 
 
 ```
-Release date : "06-Jan-2021"
-Build        : "1.0.1"
-Description  : "Add new references and Confidence feature for ensure that the good affectation"
+Release date : 28-Jun-2021
+Build        : 1.0.3
+Description  : 
+                - Add new references
+                - Update the existant data or add on the new data with anyrun links for the TTPs
+                - New tracker for the SID (CSV/JSON output)                
+==============================
+Release date : 27-Mar-2021
+Build        : 1.0.2
+Description  : 
+                - Add new references
+==============================
+Release date : 06-Jan-2021
+Build        : 1.0.1
+Description  :
+                 - Add new references
+                 - New confidence feature for ensure that the good affectation
 ```
+## Outputs
+
+<ul>
+<li>CSV</li>
+<h4>The CSV output can be downloaded and used by a third part software or can be consulted in the github page for search by keywords.</h4>
+<img src="https://raw.githubusercontent.com/StrangerealIntel/DeltaFlare/main/Pictures/QueryGithub.png"></img>
+<li>JSON</li>
+<h4>The JSON output can be used by a third part software for the survey tasks in proactive hunting or search by keywords.</h4>
+</ul>
+
+<h4> Note : On the CSV output, the separator for the sections is "," and for the references and links is ";". This allows to be parsed by github for the search keywords and list the references in one line (Github limits the number of lines that can parse in the dynamic page).</h4>
 
 ## Case study (Positive case)
 #### We take the case for SideWinder group that use ``` EFS REKEY wizard ```, the wizard for the management of EFS solution of Microsoft that vulnerable to side-loading method.
@@ -26,8 +51,7 @@ Description  : "Add new references and Confidence feature for ensure that the go
 
 ```c#
 $matrix = (gc .\DeltaFlare.json)|convertfrom-Json
-$result = $matrix.data|?{$_.Hash -eq "fa86b5bc5343ca92c235304b8dcbcf4188c6be7d4621c625564bebd5326ed850"} # results that equal to the hash
-$result
+$matrix.data|?{$_.Hash -eq "fa86b5bc5343ca92c235304b8dcbcf4188c6be7d4621c625564bebd5326ed850"} # results that equal to the hash
 ```
 
 #### This returns the following results to the console.
@@ -35,7 +59,7 @@ $result
 ```
 Date         : 2019-08-08
 Hash         : fa86b5bc5343ca92c235304b8dcbcf4188c6be7d4621c625564bebd5326ed850
-Confidence   : 100
+Confidence   : 80
 PDB          : rekeywiz.pdb
 Software     : EFS REKEY wizard
 Filename     : rekeywiz.exe
@@ -89,8 +113,7 @@ References   : {@{Title=Tracking OceanLotusâ€™ new Downloader, KerrDown; UR
 
 ```c#
 $matrix = (gc .\DeltaFlare.json)|convertfrom-Json
-$result = $matrix.data|?{$_.Threat_Actor -eq "APT32"} # results that equal to the APT32
-$result
+$matrix.data|?{$_.Threat_Actor -eq "APT32"} # results that equal to the APT32
 ```
 #### This returns an object this can give hashs and references.
 
@@ -100,7 +123,7 @@ $result
 
 <p align="center"><img src="https://raw.githubusercontent.com/StrangerealIntel/DeltaFlare/main/Pictures/Anyrun-Hash.png"></img></p>
 
-## By the PDB path
+### By the PDB path
 
 #### You can also hunt new legit software abused in sandbox in hunting by PDB path, lot of time legit software don't hide it theirs PDB paths. The public sandbox can be queried by context, advanced string search, by cache method in using Google or others web search engines by google dorks.
 
@@ -116,4 +139,35 @@ Filename     : WinWord.exe
 Malware      : RedDelta PlugX
 Threat_Actor : Mustang Panda
 References   : {@{Title=Mustang Panda group focuses catholic groups in Honk Kong; URL=https://twitter.com/Arkbird_SOLG/status/1283000270151208960}}
+```
+
+### By SID (Suricata ID)
+#### Like the others sections, you can search by the malwares and hunt the adversaries by the Suricata ID (here for APT28).
+```
+Date         : 2019-08-10
+SID          : 10004298
+Confidence   : 60
+Description  : MALWARE [PTsecurity] Trojan/Sednit SSL certificate
+Malware      : Seduploader
+Organization : APT28
+References   : {@{Title=-; URL=-}}
+Resources    : {@{URL=https://app.any.run/tasks/9abe2703-3750-4728-a932-129177b2a72a/}, @{URL=https://app.any.run/tasks/d6a8d1db-52c8-4371-b6d3-bf740408bb10/}}
+
+Date         : 2021-06-07
+SID          : 2033096
+Confidence   : 70
+Description  : ET TROJAN APT28/SkinnyBoy Checkin
+Malware      : Skinnyboy
+Organization : APT28
+References   : {@{Title=-; URL=-}}
+Resources    : {@{URL=https://app.any.run/tasks/780d4c5d-c34e-42c8-9ee7-0b2f6664d207/}}
+
+Date         : 2021-06-07
+SID          : 2033097
+Confidence   : 70
+Description  : ET TROJAN APT28/SkinnyBoy Payload Request
+Malware      : Skinnyboy
+Organization : APT28
+References   : {@{Title=-; URL=-}}
+Resources    : {@{URL=https://app.any.run/tasks/780d4c5d-c34e-42c8-9ee7-0b2f6664d207/}}
 ```
