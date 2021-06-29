@@ -1,7 +1,8 @@
 {
     "header":  {
+                   "Product": "DeltaFlare - Tracker",  
                    "Version":  "1.0.3",
-                   "Date":  "2021-03-27"
+                   "Date":  "2021-06-28"
                },
     "data":  [
                  {
@@ -591,6 +592,9 @@
                      "Threat_Actor":  "APT27",
                      "References":  [
                         {"Title":"Investigation with a twist: an accidental APT attack and averted data destruction", "URL":"https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/incident-response-polar-ransomware-apt27/"}
+                     ],
+                     "Resources":  [
+                        {"Title":"Anyrun link - 6768dc8a512ace3a954142744dc1030f8f92cf2cf9bb3f6273bc28cdd92fe860", "URL":"https://app.any.run/tasks/f6dfa857-ca74-4162-a83a-135d47ee5525/" }
                      ]
                   },
                   {
@@ -605,6 +609,191 @@
                      "References":  [
                         {"Title":"Analysis of Normal version", "URL":"https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/Additional%20Analysis/Terraloader/02-01-20/Analysis.md"},
                         {"Title":"Analysis of improvement of the Normal version", "URL":"https://github.com/StrangerealIntel/CyberThreatIntel/blob/master/Additional%20Analysis/Terraloader/2020-04-12/Analysis.md"}
+                     ],
+                     "Resources":  [
+                        {"Title":"Anyrun link - 35ba7624f586086f32a01459fcc0ab755b01b49d571618af456aa49e593734c7", "URL":"https://app.any.run/tasks/b1d3a533-912b-4fe9-86cc-69d4bda40453/" }
+                     ]
+                  },
+                  {
+                     "Date":  "2020-04-10",
+                     "Hash":  "a1d0a5484e67d6edc72cd833e976afc0d48afc3cb85670089d3d61e0c139fcc2",
+                     "Confidence":  "90",
+                     "PDB":  "-",
+                     "Software":  "SWF Class exploit for Underminer exploit kit",
+                     "Filename":  "servlet.php",
+                     "Malware":  "Underminer exploit kit",
+                     "Threat_Actor":  "-",
+                     "References":  [
+                        {"Title":"Exploit kits: fall 2018 review", "URL":"https://blog.malwarebytes.com/threat-analysis/2018/10/exploit-kits-fall-2018-review/"},
+                        {"Title":"Bootkit, Miner Delivered by New Underminer Exploit Kit", "URL":"https://www.trendmicro.com/en_us/research/18/g/new-underminer-exploit-kit-delivers-bootkit-and-cryptocurrency-mining-malware-with-encrypted-tcp-tunnel.html"},
+                        {"Title":"Exploit kits: winter 2019 review", "URL":"https://blog.malwarebytes.com/threat-analysis/2019/02/exploit-kits-winter-2019-review/"}
+                     ],
+                     "Resources":  [
+                        {"Title":"Anyrun link - Web exploit kit app.getmoney.tech", "URL":"https://app.any.run/tasks/f0937930-514a-4dab-bb82-26352446b7f4/" },
+                        {"Title":"Anyrun link - Web exploit kit popcash.net", "URL":"https://app.any.run/tasks/d4ae7752-715c-4600-b358-1d8f838e47d8/" }
+                     ]
+                  },
+                  {
+                     "Date":  "2019-08-10",
+                     "Hash":  "a48ad33695a44de887bba8f2f3174fd8fb01a46a19e3ec9078b0118647ccf599",
+                     "Confidence":  "60",
+                     "PDB":  "-",
+                     "Software":  "Wget",
+                     "Filename":  "wget.exe",
+                     "Malware":  "Pteranodon",
+                     "Threat_Actor":  "Gamaredon",
+                     "References":  [
+                        {"Title":"Cyberwarfare: A deep dive into the latest Gamaredon Espionage Campaign", "URL":"https://yoroi.company/research/cyberwarfare-a-deep-dive-into-the-latest-gamaredon-espionage-campaign/"}
+                     ],
+                     "Resources":  [
+                        {"Title":"Anyrun link - 76ea98e1861c1264b340cf3748c3ec74473b04d042cd6bfda9ce51d086cb5a1a", "URL":"https://app.any.run/tasks/5be261e9-2733-46dc-b6fb-34cbde72a48a/" }
+                     ]
+                  },
+                  {
+                     "Date":  "2021-04-23",
+                     "Hash":  "17eabfb88a164aa95731f198bd69a7285cc7f64acd7c289062cd3979a4a2f5bf",
+                     "Confidence":  "80",
+                     "PDB":  "credwiz.pdb",
+                     "Software":  "Credential Backup and Restore Wizard",
+                     "Filename":  "credwiz.exe",
+                     "Malware":  "-",
+                     "Threat_Actor":  "SideCopy",
+                     "References":  [
+                        {"Title":"Operation SideCopy -  An insight into Transparent Tribe’s sub-division", "URL":"https://www.seqrite.com/documents/en/white-papers/Seqrite-WhitePaper-Operation-SideCopy.pdf"}
+                     ],
+                     "Resources":  [
+                        {"Title":"Anyrun link - 1a2cf862d210f6d0b85fbf71974f3e1fbe1d637e2ef81f511ea64b55ed2423c7", "URL":"https://app.any.run/tasks/e25f1862-9517-49c0-82f0-bb8e103ba875/" }
+                     ]
+                  },
+                  {
+                     "Date":  "2021-04-23",
+                     "Hash":  "4bc84546895be31e258022e4fe2b621ad4ea78a30b7d9a25acccaad136983a08",
+                     "Confidence":  "80",
+                     "PDB":  "-",
+                     "Software":  "Skype Setup 8.73.0.92",
+                     "Filename":  "Skype.exe",
+                     "Malware":  "-",
+                     "Threat_Actor":  "SideCopy",
+                     "References":  [
+                        {"Title":"Discovery of a new campaign of SideCopy group using Google drive", "URL":"https://twitter.com/ShadowChasing1/status/1406959698142666756"},
+                        {"Title":"Another sample of the new campaign of SideCopy group using Google drive", "URL":"https://twitter.com/ShadowChasing1/status/1406962468010614785"}
+                     ],
+                     "Resources":  [
+                        {"Title":"Anyrun link - c54cde89abbc781c3c435b2bc2a71189a78f34cd4dfa3a0e804eea407d14c944", "URL":"https://app.any.run/tasks/a81b9053-3ec8-4f3c-9cf2-71c0f9b39de3/" },
+                        {"Title":"Anyrun link - 3dfa7180dcd674b26539687313e2e80d705f52dbe74163c40ae050e60488382a", "URL":"https://app.any.run/tasks/ee537d70-dc30-4171-ac9c-cec9743d0475/" }
+                     ]
+                  },
+                  {
+                     "Date":  "2021-04-28",
+                     "Hash":  "5cbfa1047527a44bf8cdf830077c11ab5d54f7663c8c0a91676cb1157005c14d",
+                     "Confidence":  "60",
+                     "PDB":  "f:\\Swati\\cat\\projects\\qh\\qh2015\\source\\pp\\mobpopup\\release\\mobpopup.pdb",
+                     "Software":  "Quick Heal AntiVirus 16.00",
+                     "Filename":  "mobpopup.exe",
+                     "Malware":  "RainyDay",
+                     "Threat_Actor":  "Naikon",
+                     "References":  [
+                        {"Title":"NAIKON – Traces from a Military Cyber-Espionage Operation", "URL":"https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf"}
+                     ],
+                     "Resources":  [
+                        {"Title":"Anyrun link - e9e838c2d63591f8f5c67c443345eec969926b900b17b1e76a788f0cf30ca72c", "URL":"https://app.any.run/tasks/f07c4bec-9782-4188-982a-50b303e19b27/" }
+                     ]
+                  },
+                  {
+                     "Date":  "2021-04-28",
+                     "Hash":  "9fc74d8830fa5d2cee8254fbcc02e9737cf417433efb3e5f026e4500afc94270",
+                     "Confidence":  "60",
+                     "PDB":  "-",
+                     "Software":  "Outlook Item Finder 11.0.5510",
+                     "Filename":  "finder.exe",
+                     "Malware":  "RainyDay",
+                     "Threat_Actor":  "Naikon",
+                     "References":  [
+                        {"Title":"NAIKON – Traces from a Military Cyber-Espionage Operation", "URL":"https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf"}
+                     ],
+                     "Resources":  [
+                        {"Title":"-", "URL":"-" }
+                     ]
+                  },
+                  {
+                     "Date":  "2021-04-28",
+                     "Hash":  "1e712adae2a543bf2fbf41691416b350c3a90561ab5f6590e520f833a9a587ad",
+                     "Confidence":  "60",
+                     "PDB":  "-",
+                     "Software":  "VirusScan Enterprise 8.8.0.777",
+                     "Filename":  "ScnCfg.exe",
+                     "Malware":  "RainyDay",
+                     "Threat_Actor":  "Naikon",
+                     "References":  [
+                        {"Title":"NAIKON – Traces from a Military Cyber-Espionage Operation", "URL":"https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf"}
+                     ],
+                     "Resources":  [
+                        {"Title":"-", "URL":"-" }
+                     ]
+                  },
+                  {
+                     "Date":  "2021-04-28",
+                     "Hash":  "4849af113960f473749acf71d11d56854589cf21d623e66c7408bebd5ad0608f",
+                     "Confidence":  "60",
+                     "PDB":  "-",
+                     "Software":  "Sandboxie COM Services (BITS) 3.55.06",
+                     "Filename":  "Sandboxie.exe",
+                     "Malware":  "RainyDay",
+                     "Threat_Actor":  "Naikon",
+                     "References":  [
+                        {"Title":"NAIKON – Traces from a Military Cyber-Espionage Operation", "URL":"https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf"}
+                     ],
+                     "Resources":  [
+                        {"Title":"-", "URL":"-" }
+                     ]
+                  },
+                  {
+                     "Date":  "2021-04-28",
+                     "Hash":  "18a98c2d905a1da1d9d855e86866921e543f4bf8621faea05eb14d8e5b23b60c",
+                     "Confidence":  "60",
+                     "PDB":  "-",
+                     "Software":  "ARO 2012 Tutorial 8.0.12.0",
+                     "Filename":  "AROTutorial.exe",
+                     "Malware":  "RainyDay",
+                     "Threat_Actor":  "Naikon",
+                     "References":  [
+                        {"Title":"NAIKON – Traces from a Military Cyber-Espionage Operation", "URL":"https://www.bitdefender.com/files/News/CaseStudies/study/396/Bitdefender-PR-Whitepaper-NAIKON-creat5397-en-EN.pdf"}
+                     ],
+                     "Resources":  [
+                        {"Title":"Anyrun Link - fda1519fe667965583c14d0f920c0e6bcf65354363c5d6bfee5f3412bb3e7ac5", "URL":"https://app.any.run/tasks/f4ebfb6f-76f9-46ca-a3db-d3066567a9ce/" }
+                     ]
+                  },
+                  {
+                     "Date":  "2021-05-08",
+                     "Hash":  "589229e2bd93100049909edf9825dce24ff963a0c465d969027db34e2eb878b4",
+                     "Confidence":  "60",
+                     "PDB":  "certutil.pdb",
+                     "Software":  "CertUtil 6.1.7600.16385",
+                     "Filename":  "CertUtil.exe",
+                     "Malware":  "-",
+                     "Threat_Actor":  "Lazarus",
+                     "References":  [
+                        {"Title":"New TTPs in Operation In(ter)ception", "URL":"https://twitter.com/Malwaredev/status/1390265424445587456"},
+                        {"Title":"Operation In(ter)ception: Aerospace and military companies in the crosshairs of cyberspies", "URL":"https://www.welivesecurity.com/2020/06/17/operation-interception-aerospace-military-companies-cyberspies"}
+                     ],
+                     "Resources":  [
+                        {"Title":"Anyrun Link - ffec6e6d4e314f64f5d31c62024252abde7f77acdd63991cb16923ff17828885", "URL":"https://app.any.run/tasks/707ede3a-f80d-40dd-9318-32476d3ea217/" }
+                     ]
+                  },
+                  {
+                     "Date":  "2020-08-18",
+                     "Hash":  "589229e2bd93100049909edf9825dce24ff963a0c465d969027db34e2eb878b4",
+                     "Confidence":  "70",
+                     "PDB":  "certutil.pdb",
+                     "Software":  "CertUtil 6.1.7600.16385",
+                     "Filename":  "CertUtil.exe",
+                     "Malware":  "Valak",
+                     "Threat_Actor":  "TA551",
+                     "References":  [
+                        {"Title":"TA551 (Shathak) Word docs push IcedID (Bokbot)", "URL":"https://isc.sans.edu/forums/diary/TA551+Shathak+Word+docs+push+IcedID+Bokbot/26438/"}
+                     ],
+                     "Resources":  [
+                        {"Title":"-", "URL":"-" }
                      ]
                   }
              ]   
