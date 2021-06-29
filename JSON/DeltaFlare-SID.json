@@ -154,7 +154,7 @@
             "Confidence":  "70",
             "Description":  "ET TROJAN Known Sinkhole Response Header",
             "Malware":  "-",
-            "Organization":  "APT 29",
+            "Organization":  "APT29",
             "References":  [
                                {"Title":"-", "URL":"-"}
                            ],
@@ -380,7 +380,7 @@
             "Confidence":  "70",
             "Description":  "ET TROJAN APT28/SkinnyBoy Checkin",
             "Malware":  "Skinnyboy",
-            "Organization":  "APT 28",
+            "Organization":  "APT28",
             "References":  [
                                 {"Title":"-", "URL":"-"}               
                 
@@ -395,7 +395,7 @@
             "Confidence":  "70",
             "Description":  "ET TROJAN APT28/SkinnyBoy Payload Request",
             "Malware":  "Skinnyboy",
-            "Organization":  "APT 28",
+            "Organization":  "APT28",
             "References":  [
                                 {"Title":"-", "URL":"-"}
                            ],
